@@ -2,7 +2,7 @@
 
 import Features from "@src/components/features"
 import HomeBanner from "@src/components/homeBanner"
-import Services from "@src/components/services"
+// import Services from "@src/components/services"
 import Technologies from "@src/components/technologies"
 import { StepsData } from "@src/constant"
 import { IStepsData } from "@src/types"

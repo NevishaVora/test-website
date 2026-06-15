@@ -2,7 +2,7 @@
 
 import AboutRules from "@src/components/aboutRules"
 import Banner from "@src/components/banner"
-import OurTeams from "@src/components/ourTeams"
+// import OurTeams from "@src/components/ourTeams"
 import WhoWeAre from "@src/components/whoWeAre"
 import { AchievementData } from "@src/constant"
 import { IAchievementData } from "@src/types"
