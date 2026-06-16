@@ -44,8 +44,14 @@ const ContactUs = () => {
                         <Link href={`tel:${InformationData.contactNumber}`} target="_blank" className="text-center text-[15px] md:text-base text-[--primary-theme-color] hover:underline">{InformationData.contactNumber}</Link>
                     </div>
                 </div>
-                
-                <Image src={"/images/orange-bg-tools-6.png"} alt="orange-bg-tool" width={1000} height={1000} className="w-[450px] h-[330px] absolute -bottom-5 -right-5 z-[-1] opacity-25" />
+
+                <Image
+                    src={"/images/orange-bg-tools-6.png"}
+                    alt="orange-bg-tool"
+                    width={1000}
+                    height={1000}
+                    className="hidden lg:block w-[450px] h-[330px] absolute -bottom-5 -right-5 z-[-1] opacity-25"
+                />
             </div>
         </div>
     )

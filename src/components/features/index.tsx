@@ -6,10 +6,18 @@ import { FeaturesData } from "../../constant";
 const Features = () => {
     return (
         <div className="mainContainer pt-14 pb-20 flex flex-col lg:flex-row justify-between items-start space-y-10 lg:space-y-0  lg:space-x-10">
-            <div className="w-full lg:w-[25%]">
-                <h1 className="text-lg lg:text-2xl font-medium">Choose a Web Partner</h1>
-                <h1 className="heading text-2xl md:text-3xl lg:text-4xl font-bold">You Can Trust </h1>
-                <p className="text-[--gray] text-sm sm:text-base lg:text-[18px] !mt-5">When you choose Onehub Solution as your agency partner, you can sleep well knowing we&apos;ll handle everything under one roof.</p>
+            <div className="w-full lg:w-[25%] text-center lg:text-left">
+                <h1 className="text-lg lg:text-2xl font-medium">
+                    Choose a Web Partner
+                </h1>
+
+                <h1 className="heading text-2xl md:text-3xl lg:text-4xl font-bold">
+                    You Can Trust
+                </h1>
+
+                <p className="text-[--gray] text-sm sm:text-base lg:text-[18px] mt-5">
+                    When you choose Onehub Solution as your agency partner, you can sleep well knowing we'll handle everything under one roof.
+                </p>
             </div>
             <div className="w-full lg:w-[75%] flex flex-col md:flex-row items-start md:space-x-5 space-y-5 md:!space-y-28">
                 <div className="w-full [&>*:nth-child(1)]:rounded-tr-[70px] [&>*:nth-child(1)]:lg:rounded-tr-[90px] [&>*:nth-child(2)]:rounded-bl-[70px] [&>*:nth-child(2)]:lg:rounded-bl-[90px] space-y-5 ">

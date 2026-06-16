@@ -30,8 +30,11 @@ const HomeBanner = () => {
                     <Fade direction='up' cascade delay={500} triggerOnce>
                         <p className="block text-sm lg:text-base xl:text-[17px] text-center lg:text-left !mb-4 md:!mb-8 xl:!mb-6">We’re committed to providing exceptional website development, software solutions, and mobile applications that align with your unique needs. Through cutting-edge technology and a deep understanding of your goals, we ensure that your digital transformation journey is seamless and successful.</p>
                     </Fade>
-                    <Fade direction='up' cascade delay={700} triggerOnce>
-                        <Link href="/contact-us" className={`animated-button !shadow-none bg-[--white] bg-gradient-to-r from-[--primary-theme-color] to-[--primary-theme-color] border-[3px] border-[--primary-theme-color] px-6 py-2 xl:px-10  rounded-full font-semibold text-sm sm:text-base md:text-lg xl:text-xl mx-auto lg:mx-0 lg:w-max`}>
+                    <Fade direction="up" cascade delay={700} triggerOnce>
+                        <Link
+                            href="/contact-us"
+                            className="animated-button block w-max mx-auto lg:mx-0 !shadow-none bg-[--white] bg-gradient-to-r from-[--primary-theme-color] to-[--primary-theme-color] border-[3px] border-[--primary-theme-color] px-6 py-2 xl:px-10 rounded-full font-semibold text-sm sm:text-base md:text-lg xl:text-xl"
+                        >
                             Contact Us
                         </Link>
                     </Fade>
