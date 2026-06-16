@@ -12,12 +12,9 @@ const HireDevelopers = () => {
                     <h1 className="heading text-2xl md:text-3xl lg:text-4xl text-center font-bold">Ready to start a Project?</h1>
                     <p className="text-[--gray] text-sm sm:text-base lg:text-[18px] text-center lg:w-[80%] mx-auto !mt-5">To start, use form below to tell us about you and the project</p>
 
-                    <div className="flex items-start !mt-14">
-                        <div className="w-full lg:w-[50%]">
+                    <div className="flex justify-center items-center !mt-14">
+                        <div>
                             <HiredForm />
-                        </div>
-                        <div className="w-full lg:w-[50%]">
-
                         </div>
                     </div>
                 </div>
